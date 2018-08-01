@@ -98,5 +98,8 @@ to {
     margin: 0;
     position: absolute;
     left: 40%;
-    top:90%
+    top:90%;
+}
+.instagram{
+size: 30px !important; 
 }
