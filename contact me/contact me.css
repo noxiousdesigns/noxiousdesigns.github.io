@@ -1,0 +1,137 @@
+html {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: #111314;
+    animation: fadeIn 1s ease-in;
+}
+}
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.container {
+    padding: 0 12%;
+}
+
+.nav {
+    color: dimgray;
+    margin: auto;
+}
+
+.nav__left {
+    float: left;
+}
+
+.nav__right {
+    float: right;
+    line-height: 70px;
+    padding-top: 40px;
+}
+
+.nav__right ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav__right ul li {
+    display: inline-block;
+}
+
+.nav__right ul li a {
+    color: dimgray;
+    margin: 0 3em;
+    text-decoration: none;
+}
+
+/* Added this in, unsure if you want it or not. */
+
+.nav__right ul li:hover a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav__header{
+    color: #52e5c3
+}
+.social_media{
+   float: left;
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    top:100%
+}
+.header {
+    position: absolute;
+    left: 40%;
+    top:23%;
+    text-align: center
+    }
+.header h1 {
+    color: aliceblue;
+    font-size: px;
+}
+.header p {
+    color: brown;
+    font-size: 20px;
+}
+.form {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+input {
+    width: 100%;
+    margin: 20px 0;
+    background:  rgba(0,0,0,0);
+    border: none;
+    border-bottom: 2px solid brown; 
+}
+.msg{
+   width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: brown;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+::-webkit-input-placeholder {
+    color: aliceblue;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+button {
+    padding: 15px 32px;
+    font-size: 16px;
+    background: brown;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+button:hover {
+    background-color: #6f1616;
+    cursor: pointer;
+}
+@keyframes fadeIn {
+from {
+        opacity: 0;
+}
+to {
+        opacity: :1;
+}
+}
+

@@ -1,0 +1,102 @@
+html {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-image: url(final%20background%20for%20home%20page.png);
+    color: aliceblue;
+    animation: fadeIn 1s ease-in;
+}
+}
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.container {
+    padding: 0 12%;
+}
+
+.nav {
+    color: dimgray;
+    margin: auto;
+}
+
+.nav__left {
+    float: left;
+}
+
+.nav__right {
+    float: right;
+    line-height: 70px;
+    padding-top: 40px;
+}
+
+.nav__right ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav__right ul li {
+    display: inline-block;
+}
+
+.nav__right ul li a {
+    color: dimgray;
+    margin: 0 3em;
+    text-decoration: none;
+}
+
+/* Added this in, unsure if you want it or not. */
+
+.nav__right ul li:hover a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav__header{
+    color: #52e5c3
+}
+.text1 {
+    margin:0;
+    padding: 0;
+    font-size: 100px;
+    position: absolute;
+        left: 30%;
+       top: 40%;   
+}
+
+@keyframes fadeIn {
+from {
+        opacity: 0;
+}
+to {
+        opacity: :1;
+}
+}
+.text2{
+    margin:0;
+    padding: 0;
+    font-size: 40px;
+    position: absolute;
+        left: 50%;
+       top: 56%;
+}
+
+
+
+.social-media {
+    float: left;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    top:90%
+}

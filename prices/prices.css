@@ -1,0 +1,151 @@
+html {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: #111314;
+    animation: fadeIn 1s ease-in;
+}
+}
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.container {
+    padding: 0 12%;
+}
+
+.nav {
+    color: dimgray;
+    margin: auto;
+}
+
+.nav__left {
+    float: left;
+}
+
+.nav__right {
+    float: right;
+    line-height: 70px;
+    padding-top: 40px;
+}
+
+.nav__right ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav__right ul li {
+    display: inline-block;
+}
+
+.nav__right ul li a {
+    color: dimgray;
+    margin: 0 3em;
+    text-decoration: none;
+}
+
+/* Added this in, unsure if you want it or not. */
+
+.nav__right ul li:hover a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav__header{
+    color: #52e5c3
+}
+.header_1{
+         margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 150%;
+    vertical-align: baseline;
+    color: #891c1c;
+    font-weight: 200px;
+    padding-left: 300px;
+    padding-top: 250px;
+}
+.header_2{
+           margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 150%;
+    vertical-align: baseline;
+    color: #891c1c;
+    font-weight: 200px;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+.social_media{
+   padding-left: 650px;
+    padding-top: 150px;
+    float: left;
+}
+.paraghraph_1{
+    margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 150%;
+    vertical-align: baseline;
+    color:aliceblue;
+    font-weight: 200px;
+    padding-left: 300px;
+    padding-top: 25px;
+}
+.header_3{
+         margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 150%;
+    vertical-align: baseline;
+    color: #891c1c;
+    font-weight: 200px;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+.paraghraph_2{
+     margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 150%;
+    vertical-align: baseline;
+    color:aliceblue;
+    font-weight: 200px;
+    padding-left: 300px;
+    padding-top: 25px;
+}
+.header_4{
+          margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 120%;
+    vertical-align: baseline;
+    color:aliceblue;
+    font-weight: 200px;
+    padding-left: 400px;
+    padding-top: 20px;
+}
+@keyframes fadeIn {
+from {
+        opacity: 0;
+}
+to {
+        opacity: :1;
+}
+}
